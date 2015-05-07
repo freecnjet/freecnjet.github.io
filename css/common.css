@@ -1,14 +1,15 @@
 body {
   padding-left: 11em;
-  font-family: Georgia, "Times New Roman",
-        Times, serif;
   color: purple;
-  background-color: #d8da3d 
+  background-color: white
 }
 
 h3 {
-  font-family: Helvetica, Geneva, Arial,
-        SunSans-Regular, sans-serif 
+
+}
+
+h4 {
+
 }
 
 a:link {
