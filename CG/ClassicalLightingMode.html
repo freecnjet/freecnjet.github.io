@@ -35,10 +35,20 @@ Normally, all illumination result depends on lighting, shadow, material.
 </p>
 
 <h3>Emissive</h3>
-I = K<sub>a</sub>*I<sub>a</sub>
+I = I<sub>e</sub>
 <h3>Ambient</h3>
+<p>I = K<sub>a</sub>*I<sub>a</sub></p>
+<p>K<sub>a</sub> depends on surface</p>
+<p>I<sub>a</sub> is ambient light</p>
 <h3>Diffuse</h3>
+<p>I = K<sub>d</sub>*I<sub>l</sub>*(N.L)</p>
+<p>K<sub>d</sub> depends on surface</p>
+<p>I<sub>l</sub> is diffuse light</p>
+<p>N is surface normal direction</p>
+<p>L is lighting direction</p>
+if N.L<0 then ignore it and treat as black(no light).
 <h3>Specular</h3>
+<p>Phone specular reflection I<sub>spec</sub>=W(&Theta;)I<sub>l</sub>cos<sup>n<sub>s</sub></sup>&phi;</p>
 <h3>Refraction</h3>
 
 <h2>Reflection model</h2>
