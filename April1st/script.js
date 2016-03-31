@@ -59,7 +59,7 @@ function InitEngine()
 {
 	HideTag("LoginUI");
 	ShowTag("MainGame");
-	g_GameMode = 1;
+	g_GameMode = 2;
 	InitGame();
     HideTag("ResultUI");
 }
