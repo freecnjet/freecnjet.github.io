@@ -1,7 +1,52 @@
-body {background-color:white; margin:0px 0px 0px; padding:0px 0px 0px 0px;}
+body {background-color:pink; margin:0px 0px 0px; padding:0px 0px 0px 0px;}
 
-#LoginUI {background-color:pink; width:1024px; height:768px;}
+#LoginUI {
+	background-color:pink; 
+	display: block; 
+	width: 100%; 
+	height: 100%;	
+	text-align: center;
+	vertical-align: middle;
+}
 
-#MainGame {background-color:green; width:100%; height:100%;}
+#MainGame { 
+    background-color:pink; 
+	display: none;
+	width:100%; 
+	height:100%;
+	overflow: hidden;
+}
 
-#ResultUI {background-color:blue; width:1024px; height:768px;}
+#ResultUI {
+	background-color:pink; 
+	width:100%; 
+	height:100%;
+	display: none; 
+	text-align: center; 
+}
+
+#GoButton {
+	width: 16px;
+	height: 16px;
+	border: 0;
+	background: transparent url(go.png) no-repeat center top;
+	background-size:100% 100%;
+	cursor: pointer;
+	cursor: hand;
+}
+
+#Man {
+	width: 135px;
+	height: 160px;
+	border: 0;
+	background: transparent url(male.png) no-repeat center top;
+	background-size:100% 100%;	
+}
+
+#Woman {
+	width: 108px;
+	height: 165px;
+	border: 0;
+	background: transparent url(female.png) no-repeat center top;
+	background-size:100% 100%;	
+}

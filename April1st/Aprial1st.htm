@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
 	    <link rel="stylesheet" type="text/css" href="style.css" />
@@ -6,17 +7,17 @@
 	<body onload="InitEngine();" onunload="DeinitEngine();">
 		<div id="LoginUI">
 		    <form>
-			    What's your name?<input id="PlayerName" type="text" maxlength="16"/><input value="Go" type="button" onclick="CheckPlayername();"/>
+			    <br><br><br><br><image src="pre-name-image.png"/><br>Name:<input id="PlayerName" type="text" maxlength="16"/><input type="button" id="GoButton" onclick="CheckPlayername();">
 			</form>
 		</div>
 		
 		<div id="MainGame">
-		    <div id="jyp">jyp</div>
-			<div id="wxl">wxl</div>
+		    <div id="Man"></div>
+			<div id="Woman"></div>
 		</div>
 		
 		<div id="ResultUI">
-		    Happy ending!
+		    Happy!!!
 		</div>	
 	</body>
 </html>
