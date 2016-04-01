@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "MyFont";
+    src: url(MyFont.ttf) format("truetype");
+}
+
 body {background-color:pink; margin:0px 0px 0px; padding:0px 0px 0px 0px;}
 
 #LoginUI {
@@ -49,4 +54,9 @@ body {background-color:pink; margin:0px 0px 0px; padding:0px 0px 0px 0px;}
 	border: 0;
 	background: transparent url(female.png) no-repeat center top;
 	background-size:100% 100%;	
+}
+
+#ResultWords {
+	color: blue;
+	font-family: MyFont;
 }
