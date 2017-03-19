@@ -1,0 +1,74 @@
+#StartButton {
+  background: #52A3CC;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#MainMenu {	
+  display: none;
+}
+
+div.MenuItem {
+  color:white;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;	
+  transition-property: width,height,color;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  clip:rect(0px,100px,120px,0px);
+  width:100px;
+  height:120px;
+}
+
+div.MenuItem:hover {
+  color:FFFF00;
+  clip:rect(0px,150px,180px,0px);
+  width:150px;
+  height:180px;
+}
+
+
+@keyframes ScretchMenuItem
+{
+	from {height:0px;}
+	to {height:120px;}
+}
+
+
+#MenuItem0 {
+  //width:150px;
+  //height:180px;	
+  background: #FF0000;
+}
+
+#MenuItem1 {
+  //width:100px;
+  //height:0px;
+  background: #00FF00;
+  //animation: ScretchMenuItem 1s;
+  //animation-delay: 1s;
+  //animation-fill-mode: forwards;
+}
+
+#MenuItem2 {
+  //width:100px;
+  //height:0px;
+  background: #0000FF;
+  //animation: ScretchMenuItem 1s;
+  //animation-delay: 2s;
+  //animation-fill-mode: forwards;
+}
+
+#MenuItem3 {
+  //width:100px;
+  //height:0px;
+  background: #0C0C0C;
+  //animation: ScretchMenuItem 1s;
+  //animation-delay: 3s;
+  //animation-fill-mode: forwards;
+}
